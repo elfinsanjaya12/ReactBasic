@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <List />
-        <Footer />
+        <Footer name="Makanan Nusantara" />
       </div>
     );
   }
