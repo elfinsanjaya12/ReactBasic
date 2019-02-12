@@ -6,9 +6,11 @@ class List extends Component {
     return (
       <div>
         <ol>
-          <Image />
+          <Image linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/food1.jpg" />
           <li>Nasi Padang</li>
+          <Image linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/nasipadang.jpg" />
           <li>Sate</li>
+          <Image linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sate.png" />
           <li>Soto Babat</li>
         </ol>
       </div>

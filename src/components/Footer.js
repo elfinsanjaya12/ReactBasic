@@ -1,8 +1,7 @@
 import React from "react";
 
 const Footer = props => {
-  const name = props.name;
-
+  const { name } = props.name;
   return (
     <div>
       <h2>Ini footer {name}</h2>
